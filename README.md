@@ -4,7 +4,7 @@ A simple snake game built using C++ and the [SFML](https://www.sfml-dev.org/) mu
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - A C++17-compatible compiler (e.g., `g++`)
 - SFML **version 2.6.1**
@@ -12,15 +12,15 @@ A simple snake game built using C++ and the [SFML](https://www.sfml-dev.org/) mu
 
 ---
 
-## 🚀 Installation & Building
+##  Installation & Building
 
 This project uses a `Makefile` for simplified compilation.
 
-### 🛠️ Installing SFML
+###  Installing SFML
 
 You can install the SFML 2.6.1 library using tools such as **MSYS2**, or manually from the **official SFML website**:
 
-#### ✅ Option 1: Using MSYS2 (UCRT64 environment)
+####  Option 1: Using MSYS2 (UCRT64 environment)
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-sfml
@@ -29,7 +29,7 @@ pacman -S mingw-w64-ucrt-x86_64-sfml
 
 ---
 
-#### 📦 Option 2: Manually from Official Website
+####  Option 2: Manually from Official Website
 - Go to SFML Downloads.
 - Download the SFML 2.6.1 version . Also make sure your compiler version exactly matches as included in the docs itself.(e.g., GCC 13.1.0 for SMFL 2.6.1).
 - Extract the archive.
@@ -41,7 +41,7 @@ pacman -S mingw-w64-ucrt-x86_64-sfml
    
 ---
  
-### ⚙️ Building the Project
+### Building the Project
 
 Once SFML is set up:
 
@@ -55,7 +55,7 @@ Then run:
 ```
 ---
 
-### ⚠️ Important Notes
+###  Important Notes
 - Your compiler version must match exactly with the version SFML was built for.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example: If using SFML built for GCC 13.1.0, then g++ must also be 13.1.0.
@@ -68,11 +68,11 @@ Then run:
 
 - Always refer to the official SFML documentation for the latest and most accurate guidance:
 
-📚 https://www.sfml-dev.org/documentation/2.6.1/
+ https://www.sfml-dev.org/documentation/2.6.1/
 
 ---
 
-### 🎮 Gameplay
+###  Gameplay
 Classic snake mechanics:
 
 - Move with arrow keys
@@ -81,4 +81,4 @@ Classic snake mechanics:
 
 - Avoid crashing into yourself or the walls
 
-### Enjoy the game! 🐍
+### Enjoy the game! 
